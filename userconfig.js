@@ -1,7 +1,24 @@
 // latte / frappe / macchiato / mocha
 const palette = macchiato;
 
-const default_config = {
+const default_config = ({
+  clock: {
+    format: 'h:i p',
+    iconColor: '#ff7b95'
+  },
+    temperature: {
+    location: 'Veracruz, Mexico,
+    scale: 'C'
+  },
+  search: {
+    engines: {
+      g: ['https://google.com/search?q=', 'Google'],
+      d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
+      y: ['https://youtube.com/results?search_query=', 'Youtube'],
+      w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
+    }
+  },
+  },
   overrideStorage: true,
   disabled: [],
   openLastVisitedTab: true,
@@ -9,12 +26,11 @@ const default_config = {
     {
       name: "genaro",
       background_url: `src/img/banners/cbg-13.gif`,
-      categories: [
-        {
-          name: "",
+      categories: [{
+          name: "LO MEJOR PAPU",
           links: [
             {
-              name: "gmail",
+              name: "/gmail/",
               url: "https://mail.google.com/mail/u/0/#inbox",
               icon: "brand-gmail",
               icon_color: palette.blue,
@@ -82,7 +98,7 @@ const default_config = {
       ],
     },
   ],
-};
+});
 
 const CONFIG = new Config(default_config, palette);
 
