@@ -32,11 +32,7 @@ const default_config = {
               icon: "file-text",
               icon_color: palette.blue,
             },
-          ],
-        },
-        {
-          name: "",
-          links: [
+       
             {
               name: "youtube",
               url: "https://www.youtube.com",
@@ -55,11 +51,7 @@ const default_config = {
               icon: "brand-x",
               icon_color: palette.text,
             },
-          ],
-        },
-        {
-          name: "",
-          links: [
+         
             {
               name: "uat",
               url: "https://alumnos.uat.edu.mx/",
@@ -72,22 +64,14 @@ const default_config = {
               icon: "device-ipad-down",
               icon_color: palette.blue,
             },
-          ],
-        },
-        {
-          name: "",
-          links: [
+    
            {
               name: "whatsapp",
               url: "https://web.whatsapp.com/",
               icon: "brand-whatsapp",
               icon_color: palette.lavender,
             },
-          ]
-        },
-        {
-          name: "",
-          links: [
+         
             {
               name: "chatgpt",
               url: "https://chatgpt.com/",
