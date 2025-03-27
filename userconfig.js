@@ -5,7 +5,7 @@ const default_config = {
   overrideStorage: true,
   disabled: [],
   openLastVisitedTab: true,
-  localIcons: true,
+  localIcons: false,
   tabs: [
     {
       name: "home",
