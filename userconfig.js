@@ -5,10 +5,9 @@ const default_config = {
   overrideStorage: true,
   disabled: [],
   openLastVisitedTab: true,
-  localIcons: false,
   tabs: [
     {
-      name: "home",
+      name: "genaro",
       background_url: `src/img/banners/cbg-13.gif`,
       categories: [
         {
