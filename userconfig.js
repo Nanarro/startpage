@@ -46,7 +46,7 @@ const default_config = {
             {
               name: "canva",
               url: "https://www.canva.com/",
-              icon: "brand-canva",
+              icon: "pencil-bolt",
               icon_color: palette.peach,
             },
             {
@@ -63,13 +63,13 @@ const default_config = {
             {
               name: "uat",
               url: "https://alumnos.uat.edu.mx/",
-              icon: "brand-UAT",
+              icon: "school",
               icon_color: palette.green,
             },
             {
               name: "myrient",
               url: "https://myrient.erista.me/files/",
-              icon: "brand-myrient",
+              icon: "device-ipad-down",
               icon_color: palette.blue,
             },
           ],
@@ -80,7 +80,7 @@ const default_config = {
            {
               name: "whatsapp",
               url: "https://web.whatsapp.com/",
-              icon: "whatsapp",
+              icon: "brand-whatsapp",
               icon_color: palette.lavender,
             },
           ]
