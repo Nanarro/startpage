@@ -9,21 +9,21 @@ const default_config = {
   tabs: [
     {
       name: "home",
-      background_url: `src/img/banners/cbg-8.gif`,
+      background_url: `src/img/banners/cbg-13.gif`,
       categories: [
         {
           name: "",
           links: [
             {
               name: "gmail",
-              url: "https://mail.google.com",
+              url: "https://mail.google.com/mail/u/0/#inbox",
               icon: "brand-gmail",
               icon_color: palette.blue,
             },
             {
-              name: "classroom",
-              url: "https://classroom.google.com/u/1/",
-              icon: "books",
+              name: "telegram",
+              url: "https://web.telegram.org/a/",
+              icon: "brand-telegram",
               icon_color: palette.green,
             },
             {
@@ -44,9 +44,9 @@ const default_config = {
               icon_color: palette.red,
             },
             {
-              name: "reddit",
-              url: "https://www.reddit.com/",
-              icon: "brand-reddit",
+              name: "canva",
+              url: "https://www.canva.com/",
+              icon: "brand-canva",
               icon_color: palette.peach,
             },
             {
@@ -61,44 +61,26 @@ const default_config = {
           name: "",
           links: [
             {
-              name: "github",
-              url: "https://github.com/ashish0kumar",
-              icon: "brand-github",
+              name: "uat",
+              url: "https://alumnos.uat.edu.mx/",
+              icon: "brand-UAT",
               icon_color: palette.green,
             },
             {
-              name: "devdocs",
-              url: "https://devdocs.io",
-              icon: "code",
+              name: "myrient",
+              url: "https://myrient.erista.me/files/",
+              icon: "brand-myrient",
               icon_color: palette.blue,
-            },
-            {
-              name: "hacker-news",
-              url: "https://news.ycombinator.com",
-              icon: "news",
-              icon_color: palette.peach,
             },
           ],
         },
         {
           name: "",
           links: [
-            {
-              name: "leetcode",
-              url: "https://leetcode.com/u/ashish0kumar/",
-              icon: "brand-leetcode",
-              icon_color: palette.yellow,
-            },
-            {
-              name: "dsa",
-              url: "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2",
-              icon: "list-details",
-              icon_color: palette.red,
-            },
-            {
-              name: "udemy",
-              url: "https://www.udemy.com/home/my-courses/learning/",
-              icon: "certificate",
+           {
+              name: "whatsapp",
+              url: "https://web.whatsapp.com/",
+              icon: "whatsapp",
               icon_color: palette.lavender,
             },
           ]
@@ -111,18 +93,6 @@ const default_config = {
               url: "https://chatgpt.com/",
               icon: "brand-openai",
               icon_color: palette.teal,
-            },
-            {
-              name: "claude",
-              url: "https://claude.ai/new",
-              icon: "robot",
-              icon_color: palette.peach,
-            },
-            {
-              name: "monkeytype",
-              url: "https://monkeytype.com",
-              icon: "keyboard",
-              icon_color: palette.red,
             },
           ]
         },
